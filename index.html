@@ -8,22 +8,30 @@
         </title>
     </head>
     <style>
+       body{
+        background-image: url(./images/background1.jpg);
+       }
        .brown{
         background-color: brown;
        }
        div{
             background-color:azure;
             border: 6px solid brown;
-            margin: 5px;
+            margin: 10px;
             padding: 3px 5px;
             text-align: justify;
+            border-radius: 2px;
+            box-shadow: 3px 1px 5px khaki;
         }
         #decoration{
             text-decoration: underline;
+            text-align: center;
         }
+        
     </style>
+    <link rel="icon" type="image/x-icon" href="/images/usericon.png">
     <body>
-        <h1 class="brown"style="color: khaki; text-align: center;">First Website </h1>
+        <h1 class="brown"style="color: khaki; text-align: center;">My First Website </h1>
         <div>
          <h3>My name is Md Zihad Hasan Jaan.</h3>
          <p>I am a passionate learner. I want to be a web developer. My short term goal is to be a Junior Dev. And long-term goal is to be a Full Stack Web Developer.</p>
@@ -38,11 +46,25 @@
         </div>
         <hr>
         <hr>
-        <div><h3 id="decoration" style="text-align: center;">The full form of HTML and CSS</h3>
+        <div><h3 id="decoration">The full form of HTML and CSS</h3>
            <li><strong>HTML</strong>: Hyper Text Markup Language</li>
         <li><strong>CSS</strong>: Cascading Style Sheet</li>
         </div>
+        <div >
+            <h3 id="decoration" style="text-align: center;"> My hobby list by unordered</h3>
+            <ul type="square">
+                <li>Driving</li>
+                <li>Swimming</li>
+                <li>Designing</li>
+            </ul>
 
+        </div>
+        <div>
+            <h3 id="decoration">This is a simple login form which I made</h3>
+            <p>Email: <input type="text"></p>
+            <p>Password:<input type="password"></p>
+        </div>
 
+        <footer id="decoration" style="color: blue;"><small>©️All right reserved</small></footer>
     </body>
 </html>
