@@ -1,0 +1,20 @@
+body{
+    background-image:url(../images/background2.jpg);
+    color: azure;
+}
+div{
+    border: 5px orange dashed;
+    border-radius: 3px;
+    margin: 8px;
+    padding: 5px;
+    text-align: justify;
+
+}
+#decoration{
+    text-align:center;
+}
+
+.bgcolor{
+    background-color: brown;
+}
+
