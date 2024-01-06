@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+    <style>
+        nav>ul {
+            display: flex;
+            background-color: aliceblue;
+
+        }
+
+        nav li {
+            margin-right: 200px;
+            padding: 5px;
+            list-style: none;
+
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: black;
+
+            padding: 6px;
+
+        }
+
+        nav li:hover {
+            background-color: pink;
+        }
+        label{
+            display: block;
+            margin-bottom:10px;
+            
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">HomePage</a></li>
+                <li><a href="../Practice/practice-03-form.html">Foodora Raider</a></li>
+            </ul>
+        
+        </nav>
+
+        
+    </header>
+    <main>
+        <section id="block">
+            <form>
+                <label for="name">Name
+                    <input id="name" type="text" placeholder="type your name here">
+                </label>
+                <label for="email">Email 
+                    <input id="email" type="email" placeholder="type your mail here">   
+                </label>
+                <label for="phone">
+                    Phone<input id="phone" type="number" placeholder="type your phone here">
+                </label>
+                
+        </section>
+        <section>
+            <fieldset>
+                <legend>Select Gender</legend>
+                <label for="Female"><input id="Female" type="radio" name="Select Gender">Female</label>
+                <label for="Male"><input id="Male" type="radio" name="Select Gender" >Male</label>
+            </fieldset>
+            <fieldset>
+                <legend>Type About yourself</legend>
+                <label for="about yourself"> <textarea id="about yourself" type="text" placeholder="Type here" cols="128" rows="05"></textarea> </label>
+            </fieldset>
+            
+            <input id="reset" type="reset">
+            <a href="../Practice/practice-03-table.html"><input id="submit" type="submit"></a>
+
+            
+        </section>
+
+        </form>
+    </main>
+</body>
+
+</html>
