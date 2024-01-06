@@ -4,4 +4,12 @@ nav > ul{
 nav li{
     list-style: none;
     margin-right: 150px;
+    padding: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: lightgrey;
 }
